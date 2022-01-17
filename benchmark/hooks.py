@@ -173,3 +173,34 @@ user_data_fields = [
 # 	"benchmark.auth.validate"
 # ]
 
+fixtures = [
+	{
+		"doctype": "Custom Field",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Lead-branch",
+					"Lead-contact_list",
+				]
+			]
+		]
+	},
+	{
+		"doctype": "Property Setter",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Lead-phone-hidden",
+					"Lead-mobile_no-hidden",
+					"Lead-fax-hidden",
+					"Lead-website-hidden",
+					"Lead-address_info-hidden",
+				]
+			]
+		]
+	}
+ ]
