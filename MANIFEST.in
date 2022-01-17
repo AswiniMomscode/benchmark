@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include benchmark *.css
+recursive-include benchmark *.csv
+recursive-include benchmark *.html
+recursive-include benchmark *.ico
+recursive-include benchmark *.js
+recursive-include benchmark *.json
+recursive-include benchmark *.md
+recursive-include benchmark *.png
+recursive-include benchmark *.py
+recursive-include benchmark *.svg
+recursive-include benchmark *.txt
+recursive-exclude benchmark *.pyc
